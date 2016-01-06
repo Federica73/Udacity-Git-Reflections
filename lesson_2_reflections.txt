@@ -1,5 +1,4 @@
 
-Reflect: Staging Area
 1)
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is a place in the middle, where I can modify my files, decide to remove or add a file if I deemed necessary and commit only when I feel it is logical to do so. I can track better than in working directory, but still have more flexibility than in repository.
@@ -9,3 +8,6 @@ Adding the file to the staging area when I am satisfied with the change and I fe
 3)
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 One typical situation is when I´d like to experiment some features in the code, not knowing it it brings to anything, e.g. adding polimers in Project 2. Or when I add a language.
+4)
+How do the diagrams help you visualize the branch structure?
+They help visualizing which commits are in common to two or more branches and if there commits which are not breachable. They are also useful to se at which point new features (= branches) were intoduced.
