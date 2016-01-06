@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    #Shorter selection of lines where the bug could have been located
+    #Easier detection of same words
+    #Possibility to go for exclusions: when I did not find the bug the first two time,
+    I stopped to look for differences, but checked which words could have been mispelled
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    #See the evolution and avoid reinventing the wheel
+    #Collaborations from different programmers is easier: even if I cannot contact them, I can
+    understand why they modified the file
+    #Update of file is easier: I can easily see what was already done and what is missing
+    #Finding bugs is easier: I can focused on the secitons of the file that have been changed
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    #Pro: I choose when and what to commit: saved version follows a logic
+    #Pro:I commit only when the program can compile
+    #Cons:changes could go lost, since one has forgotten to commit
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is meant for coding, where it is common to have multiple files concatenated with each other. Google docs refers to docuemnts, which normally are stand-alone. The novel example is one of the few examples where Google docs does not work as intended.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log let you see the summarized history, i.e. the git ID of every change and the title of the change. Once identified the change I need to explore further, I use git diff to comare the changed file with the previous one, to see all the difference. Thanks to the colors, I can quickly identify insertion in green and deletion in red.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    With version control I can find and isolate bugs introduced by changes very easily, so I am more keen on experimenting with the code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
