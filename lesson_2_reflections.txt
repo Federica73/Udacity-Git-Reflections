@@ -1,0 +1,4 @@
+
+Reflect: Staging Area
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is a place in the middle, where I can modify my files, decide to remove or add a file if I deemed necessary and commit only when I feel it is logical to do so. I can track better than in working directory, but still have more flexibility than in repository.
