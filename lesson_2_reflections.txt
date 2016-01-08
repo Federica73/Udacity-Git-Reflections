@@ -11,3 +11,6 @@ One typical situation is when I´d like to experiment some features in the code,
 4)
 How do the diagrams help you visualize the branch structure?
 They help visualizing which commits are in common to two or more branches and if there commits which are not breachable. They are also useful to se at which point new features (= branches) were intoduced.
+5)
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+We have the master branch combining all the changes done in the master and in the branch, irrespective of the author of the changes. Realy a great facilitation!The diagram was drwan this way to emphatize that the merged branch is interrupted and all the changes are contained in the master branch.
