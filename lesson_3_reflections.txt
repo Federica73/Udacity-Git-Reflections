@@ -6,18 +6,20 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-   I may decide to update the local repository only after a set of changes on the remote repository are completed, 
+   I may decide to update the local repository only after a set of changes on the remote repository are completed,
    or to wait until another contributor has reviewed/improved/completed/approved the changes.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks are useful when I´d like to contribute to the repository, suggesting some changes. The owner of the repository can decide if implement them or not.
+    Branches are useful for collaborating, when people work on the same repository with the same objectives and timelines.
+    Clones are useful if I use the repository as a basis for creating my own repository, without the primary aim to contribute to the clones repository.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    I am not so sure about this point. Probably to better tracking the changes when I have been disconnected for a while.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?

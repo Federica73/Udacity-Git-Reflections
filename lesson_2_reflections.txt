@@ -14,3 +14,6 @@ They help visualizing which commits are in common to two or more branches and if
 5)
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 We have the master branch combining all the changes done in the master and in the branch, irrespective of the author of the changes. Realy a great facilitation!The diagram was drwan this way to emphatize that the merged branch is interrupted and all the changes are contained in the master branch.
+6)
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git does not forget any change and combines them in temporal sequence. In addition, it warns us if one file was changed in parallel and mark the conflict with <<<<. It leaves to us the task to solve the conflict and decide which code is the most appropriate.
